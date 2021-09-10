@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Interior</title>
+    <link rel="icon" href="images/favicon.svg" type="image/svg" sizes="16x16">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&family=Josefin+Slab&family=Mulish:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+<div class="loader">
+    <div class="loader-circle">
+        <div class="loader-inner"></div>
+    </div>
+    <div class="loader-circle">
+        <div class="loader-inner"></div>
+    </div>
+    <div class="loader-circle">
+        <div class="loader-inner"></div>
+    </div>
+    <div class="loader-circle">
+        <div class="loader-inner"></div>
+    </div>
+    <div class="loader-circle">
+        <div class="loader-inner"></div>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="hamburger-menu" id="hamburger">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+    </div>
+
+    <a class="scroll-top-btn" id="scrollUp" href="#">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <section class="sidenav">
+        <ul class="sidenav-menu">
+            <li class="sidenav-menu-item">
+                <a href="#" data-content="Home">Home</a>
+            </li>
+            <li class="sidenav-menu-item">
+                <a href="#" data-content="About Us">About Us</a>
+            </li>
+            <li class="sidenav-menu-item">
+                <a href="#" data-content="Team">Team</a>
+            </li>
+            <li class="sidenav-menu-item">
+                <a href="#" data-content="Pricing">Pricing</a>
+            </li>
+            <li class="sidenav-menu-item">
+                <a href="#" data-content="Contact">Contact</a>
+            </li>
+        </ul>
+        <div class="sidenav-media">
+            <a href="#"><i class=" gl-icon fab fa-facebook-f"></i></a>
+            <a href="#"><i class=" gl-icon fab fa-instagram"></i></a>
+            <a href="#"><i class=" gl-icon fab fa-twitter"></i></a>
+        </div>
+    </section>
+
+    <header class="home">
+        <div class="home-bg">
+            <img src="images/home-bg.jpg" alt="apartment interior background image">
+        </div>
+        <div class="home-content">
+            <h1>Architecture & Interior Design</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            <button class="gl-button">Discover now</button>
+        </div>
+    </header>
+
+    <section class="team">
+        <h3 class="team-title">Our Team</h3>
+        <div class="team-cards">
+            <div class="card" data-tilt>
+                <div class="card-img">
+                    <img src="images/team-1.jpg" alt="team member">
+                </div>
+                <div class="card-info">
+                    <h4>John Smith</h4>
+                    <h5>CTO</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias commodi eligendi itaque nam
+                        pariatur voluptatem.
+                    </p>
+                    <button class="gl-button">Read More</button>
+                </div>
+            </div>
+            <div class="card" data-tilt>
+                <div class="card-img">
+                    <img src="images/team-2.jpg" alt="team member">
+                </div>
+                <div class="card-info">
+                    <h4>Linda Kerry</h4>
+                    <h5>Architect</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias commodi eligendi itaque nam
+                        pariatur voluptatem.
+                    </p>
+                    <button class="gl-button">Read More</button>
+                </div>
+            </div>
+            <div class="card" data-tilt>
+                <div class="card-img">
+                    <img src="images/team-3.jpg" alt="team member">
+                </div>
+                <div class="card-info">
+                    <h4>Elsa Young</h4>
+                    <h5>Designer</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias commodi eligendi itaque nam
+                        pariatur voluptatem.
+                    </p>
+                    <button class="gl-button">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="contact-wrapper">
+            <div class="contact-left"></div>
+            <div class="contact-right">
+                <h3>Contact</h3>
+                <form>
+                    <div class="input-group">
+                        <input type="text">
+                        <label>Full Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email">
+                        <label>Email</label>
+                    </div>
+                    <div class="textarea-group">
+                        <textarea></textarea>
+                        <label>Message</label>
+                    </div>
+                    <button class="gl-button" type="submit">submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-copyright">
+                Copyright &copy; 2020, All Rights Reserved
+            </p>
+            <div class="footer-socials">
+                <a href="#"><i class="gl-icon fab fa-facebook-f"></i></a>
+                <a href="#"><i class="gl-icon fab fa-instagram"></i></a>
+                <a href="#"><i class="gl-icon fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.0.3/tilt.jquery.min.js"
+        integrity="sha512-14AZ/DxUrlF26z6v7egDkpJHKyJRn/7ue2BgpWZ/fmqrqVzf4PrQnToy99sHmKwzKev/VZ1tjPxusuTV/n8CcQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/libs.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

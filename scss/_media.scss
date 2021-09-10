@@ -1,0 +1,82 @@
+@media (max-width: 1280px) {
+  .home {
+    &-content {
+      h1 {
+        font-size: 60px;
+        line-height: 70px;
+      }
+
+      p {
+        font-size: 32px;
+      }
+    }
+  }
+
+  .team {
+    &-title {
+      font-size: 60px;
+    }
+
+    .team-cards {
+      .card {
+        width: 300px;
+        height: 360px;
+      }
+    }
+  }
+
+  .contact {
+    &-wrapper {
+      width: 70%;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .team {
+    padding: 75px 0;
+
+    &-title {
+      margin-bottom: 75px;
+    }
+
+    .team-cards {
+      flex-wrap: wrap;
+
+      .card {
+        margin: 30px;
+      }
+    }
+  }
+
+  .contact {
+    &-wrapper {
+      width: 80%;
+    }
+
+    &-right {
+      padding: 30px 15px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    &-content {
+      h1 {
+        font-size: 42px;
+        line-height: 50px;
+      }
+
+      p {
+        font-size: 24px;
+      }
+    }
+  }
+
+  .team {
+    &-title {
+      font-size: 40px;
+    }
+  }
+}
