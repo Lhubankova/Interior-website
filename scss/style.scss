@@ -355,7 +355,7 @@ body {
     color: #fff;
 
     h1 {
-      width: 50%;
+      width: 60%;
       margin-bottom: 30px;
       font-size: 80px;
       letter-spacing: 2px;
@@ -415,7 +415,7 @@ body {
     }
   }
 
-  .team-cards {
+  &-cards {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
@@ -574,6 +574,9 @@ body {
         &:focus ~ label {
           transform: translateY(-30px);
           font-size: 12px;
+        }
+        &:not(:placeholder-shown) ~ label {
+          transform: translateY(-30px);
         }
       }
 

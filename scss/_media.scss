@@ -17,7 +17,7 @@
       font-size: 60px;
     }
 
-    .team-cards {
+    &-cards {
       .card {
         width: 300px;
         height: 360px;
@@ -40,7 +40,7 @@
       margin-bottom: 75px;
     }
 
-    .team-cards {
+    &-cards {
       flex-wrap: wrap;
 
       .card {
@@ -55,12 +55,85 @@
     }
 
     &-right {
-      padding: 30px 15px;
+      padding: 40px 15px;
+    }
+  }
+
+  .footer {
+    padding: 30px 0;
+
+    &-content {
+      width: 100%;
+      flex-direction: column;
+    }
+
+    &-copyright {
+      margin-bottom: 15px;
     }
   }
 }
 
 @media (max-width: 768px) {
+  .home {
+    &-content {
+      left: 5%;
+
+      h1 {
+        width: 80%;
+      }
+
+      p {
+        width: 80%;
+      }
+    }
+  }
+
+  .team {
+    &-title {
+      font-size: 40px;
+    }
+  }
+
+  .contact {
+    &-wrapper {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &-left {
+      width: 100%;
+      height: 200px;
+    }
+
+    &-right {
+      width: 100%;
+
+      h3 {
+        font-size: 40px;
+      }
+
+      form {
+        .input-group,
+        .textarea-group {
+          width: 90%;
+        }
+
+        button {
+          max-width: 90%;
+        }
+      }
+
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .hamburger-menu {
+    top: 20px;
+    right: 20px;
+  }
+
   .home {
     &-content {
       h1 {
@@ -76,7 +149,38 @@
 
   .team {
     &-title {
-      font-size: 40px;
+      margin-bottom: 30px;
+    }
+
+    &-cards {
+      .card {
+        width: 200px;
+        height: 260px;
+      }
+    }
+  }
+
+  .contact {
+    &-right {
+
+      h3 {
+        font-size: 30px;
+      }
+
+      form {
+        label {
+          font-size: 14px;
+        }
+
+        input,
+        textarea {
+          margin: 20px 0;
+        }
+
+        button {
+          max-width: 90%;
+        }
+      }
     }
   }
 }
